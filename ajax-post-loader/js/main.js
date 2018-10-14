@@ -28,7 +28,7 @@ $(function () {
 
     function needload() {
         if (window.pageYOffset + window.innerHeight + 100 > document.body.scrollHeight) {
-            load(3);
+            load(10);
         }
         // window.removeEventListener("scroll", needload);
     }
